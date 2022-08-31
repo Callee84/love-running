@@ -129,7 +129,7 @@ animation-fill-mode: forwards;
     padding-top: 30px;
     width: 33%;
     float: right;
-    background-color:
+    
 }
 
 #center-about {
@@ -236,4 +236,17 @@ footer {
     margin: 1%;
     padding: 5%;
     color: #3a3a3a;
+}
+
+/* gallery */
+
+#photos {
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0;
+}
+
+#photos > img {
+    width: 100%;
 }
